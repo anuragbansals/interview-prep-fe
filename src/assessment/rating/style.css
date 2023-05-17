@@ -1,0 +1,22 @@
+.star-container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.star{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    /* background-color: yellow; */
+    margin: 0 12px;
+    border: 1px solid black;
+}
+
+.star:hover{
+    /* background-color: yellow; */
+}
+
+.active{
+    background-color: yellow;
+}
