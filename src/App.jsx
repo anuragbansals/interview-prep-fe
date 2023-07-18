@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Tabs from './assessment/tabs'
 import Rating from './assessment/rating'
+import PopupOver from './assessment/popover'
 
 function App() {
 
   return (
-    <div>
-      <Rating/>
+    <div >
+      <PopupOver/>
     </div>
   )
 }
